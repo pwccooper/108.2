@@ -1,0 +1,30 @@
+
+
+
+<div class="form-group"> 
+<div class="form-group row">
+
+<label for="inputEmail13" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type ="email" [(ngModel)]="email" class="form-control" placeholder="eSmail">
+      
+    </div>
+</div>
+</div> 
+
+<div class="form-group row">
+
+    <label for="inputPassword3" class="col-sm-2 col-form-label">password</label>
+      <div class="col-sm-10">
+        <input type ="text" [(ngModel)]="password" class="form-control"  placeholder="password">
+
+    </div>
+  </div>
+
+<button (click)="validateLogin()" type="button" class="btn btn-info">Submit</button>
+
+<div class="aler alert-danger" *ngIf="showLoginError">
+
+  Invalid data, please try again!
+
+</div>

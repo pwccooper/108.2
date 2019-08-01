@@ -1,0 +1,47 @@
+<h2>Register new user on the system</h2>
+<div class="row">
+  <div class="co-md-10"></div>
+</div>
+
+<div class="form-group">
+  <div class="form-group row">
+    <label for="inputEmail13" class="col-sm-2 col-form-label">User Name</label>
+    <div class="col-sm-10">
+      <input type ="email" [(ngModel)]="userModel.userName" name="userModel.userName" class="form-" placeholder="userName">
+
+    </div>
+  </div>
+
+  <hr>
+  
+<div class="form-group row">
+    <label for="inputfirstName" class="col-sm-2 col-form-label">First Name</label>
+    <div class="col-sm-10">
+      <input type ="text" [(ngModel)]="userModel.firstName" name="userModel.firstName" class="form-control" placeholder="firstName">
+      
+    </div>
+</div>
+
+<div class="form-group row">
+  <label for="inputlastName" class="col-sm-2 col-form-label">First Name</label>
+  <div class="col-sm-10">
+    <input  type ="text" [(ngModel)]="userModel.lastName" name="userModel.lastName" class="form-control" placeholder="lastName">
+    
+  </div>
+</div>
+
+<div class="form-group row">
+  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+  <div class="col-sm-10">
+    <input type ="text" [(ngModel)]="password" name="password" class="form-control" placeholder="Password">
+    
+  </div>
+</div>
+
+<div class="form-group row">
+  <label for="inputPassword" class="col-sm-2 col-form-label">Retype Password</label>
+  <div class="col-sm-10">
+    <input type ="text" [(ngModel)]="passwordRetype" name="passwordRetype" class="form-control" placeholder="Password">
+    
+  </div>
+</div>
